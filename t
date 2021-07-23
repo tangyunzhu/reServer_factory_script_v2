@@ -2,7 +2,9 @@
 
 cd /home/te/factoryScript
 echo "" > dut_test.log
-echo -e "\r\n----------reServer factory testing-----------\r\n"
+line="\r\n----------reServer factory testing[20210723-v1.0]-----------\r\n"
+echo $line >> dut_test.log
+echo -e $line
 
 ./auto_disk
 r1=$?

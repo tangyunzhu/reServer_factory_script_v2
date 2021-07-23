@@ -1,9 +1,8 @@
 ls /dev/ttyACM* > samd21.log
 cd samd21
 python3 flash_samd21.py >> ../samd21.log
-cat ../samd21.log >> dut_test.log
-
 r=$?
+cat ../samd21.log >> dut_test.log
 cd ..
 if [ "$r" -eq 0 ]; then
 	echo "samd21 flash OK"
@@ -13,4 +12,12 @@ else
 fi
 sleep 1
 ls /dev/ttyACM* >> samd21.log
+r=$?
+if [ "$r" -eq 0 ]; then
+        echo "Serial port OK, after flash"
+else
+        echo "Serial port fail, after falsh"
+        exit 5
+fi
+
 exit 0
