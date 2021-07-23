@@ -1,0 +1,79 @@
+#!/bin/bash
+
+min_speed=2.0
+
+
+ifconfig | grep enp[0-9]s0 > eth_interface.log
+cat eth_interface.log >> dut_test.log
+
+r1=$(sed -n "1p" eth_interface.log)
+r2=$(sed -n "2p" eth_interface.log)
+
+
+eth1=${r1:0:6}
+eth2=${r2:0:6}
+echo $eth1 $eth2
+cat /sys/class/net/$eth1/address > eth1_address
+cat /sys/class/net/$eth2/address > eth2_address
+
+
+ifconfig $eth1 up
+ifconfig $eth2 down
+dhclient $eth1
+sleep 1
+
+echo "iperf host ip is:" $1
+
+#iperf3 -c 192.168.237.51 > iperf.log
+iperf3 -c $1 > iperf.log
+cat iperf.log >> dut_test.log
+
+r=$(sed -n '17p' iperf.log)
+echo $r
+m=`expr index "$r" G`
+#echo $m
+S=${r:$m+7:4} 
+
+echo "Speed is: "$S" Gbits/sec"
+
+if [ `echo "$S > $min_speed"|bc` -eq 1 ]; then
+
+	echo "Ethernet $eth1 Speed PASS"
+#	exit 0
+else
+
+	echo "Ethernet eth1 Speed FAILED"
+	exit 1
+fi
+
+ifconfig $eth1 down
+ifconfig $eth2 up
+dhclient $eth2
+sleep 1
+
+#iperf3 -c 192.168.237.51 > iperf.log
+iperf3 -c $1 > iperf.log
+cat iperf.log >> dut_test.log
+
+r=$(sed -n '17p' iperf.log)
+echo $r
+m=`expr index "$r" G`
+#echo $m
+S=${r:$m+7:4}
+
+ifconfig $eth1 up
+ifconfig $eth2 up
+
+echo "Speed is: "$S" Gbits/sec"
+
+if [ `echo "$S > $min_speed"|bc` -eq 1 ]; then
+
+        echo "Ethernet $eth2 Speed PASS"
+#        exit 0
+else
+
+        echo "Ethernet $eth2 Speed FAILED"
+        exit 2
+fi
+
+exit 0

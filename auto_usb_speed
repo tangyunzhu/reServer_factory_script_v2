@@ -1,0 +1,95 @@
+#!/bin/bash
+#-------------------- sda1 Speed --------------------#
+usb30=0
+usb20=0
+
+point1=/dev/sdc1
+point2=/dev/sdd1
+
+usb2_time=15.5
+usb3_time=5.5
+
+testDone=0
+
+#mount /dev/sdc1 /mnt
+mount $point1 /mnt
+if [ $? -ne 0 ]; then
+	echo $?
+	echo "Error: USB Mount fail"
+	exit 5
+fi
+
+{ time dd if=/dev/zero of=/mnt/file bs=1M count=100; } 2>usb.log
+cat usb.log >> dut_test.log
+cat usb.log
+rm -rf /mnt/file
+#umount /dev/sdc1
+umount $point1
+r=$(sed -n '5p' usb.log)
+echo $r
+m=`expr index "$r" m`
+S=${r:$m:4} 
+echo "$point1 time is: " $S
+
+max_time=$usb3_time
+
+if [ `echo "$S < $max_time"|bc` -eq 1 ] ; then
+	usb30=1
+	echo "USB3.0 speed OK"
+else
+	max_time=$usb2_time
+	if [ `echo "$S < $max_time"|bc` -eq 1 ] ; then
+		usb20=1
+		echo "USB2.0 speed OK"
+	fi
+fi
+
+
+#-------------------- sdd1 Speed --------------------#
+#mount /dev/sdd1 /mnt
+mount $point2 /mnt
+if [ $? -ne 0 ]; then
+        echo $?
+        echo "Error: USB Mount fail"
+        exit 7
+fi
+
+{ time dd if=/dev/zero of=/mnt/file bs=1M count=100; } 2>usb.log
+cat usb.log >> dut_test.log
+cat usb.log
+rm -rf /mnt/file
+#umount /dev/sdd1
+umount $point2
+r=$(sed -n '5p' usb.log)
+echo $r
+m=`expr index "$r" m`
+S=${r:$m:4}
+echo "$point2 time is: " $S
+
+
+if [ `echo "$S < $usb3_time"|bc` -eq 1 ] && [ $usb30 -eq 1 ] ; then
+        usb20=1
+	testDone=1
+        echo "USB2.0 speed OK"
+fi
+
+if [ `echo "$S < $usb2_time"|bc` -eq 1 ] && [ $usb30 -eq 1 ] && [ $testDone -eq 0 ] ; then
+        usb20=1
+	testDone=1
+        echo "USB2.0 speed OK"
+fi
+
+if [ `echo "$S < $usb3_time"|bc` -eq 1 ] && [ $usb20 -eq 1 ] && [ $testDone -eq 0 ] ; then
+        usb30=1
+        echo "USB3.0 speed OK"
+fi
+
+
+
+if [ $usb30 -eq 1 -a $usb20 -eq 1 ]; then
+	echo "USB hub speed OK"
+	exit 0
+else
+	echo "USB hub speed FAIL"
+	exit 1
+fi

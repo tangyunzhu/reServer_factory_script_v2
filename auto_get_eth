@@ -1,0 +1,19 @@
+#!/bin/bash
+
+ifconfig | grep enp[0-9]s0 > eth_interface.log
+r1=$(sed -n "1p" eth_interface.log)
+r2=$(sed -n "2p" eth_interface.log)
+
+m1=`expr index "$r1" :`
+m2=`expr index "$r2" :`
+
+eth1=${r1:0:6}
+eth2=${r2:0:6}
+echo $eth1 $eth2
+
+
+echo "interface is $eth1, haha"
+echo "interface is $eth2, haha"
+
+cat /sys/class/net/$eth1/address
+cat /sys/class/net/$eth2/address

@@ -1,0 +1,20 @@
+checkTxt="Speed: 2500Mb/s"
+checkTst="Duplex: Full"
+checkTlt="Link detected: yes"
+
+ethtool enp3s0 > enp3s0.log
+log=$(cat enp3s0.log)
+echo "$log" |grep -q "$checkTxt" && echo "enp3s0[2500M] check OK" || { echo "enp3s0 check FAIL"; exit 3; }
+echo "$log" |grep -q "$checkTst" && echo "enp3s0[Duplex] check OK" || { echo "enp3s0 check FAIL"; exit 3; }
+echo "$log" |grep -q "$checkTlt" && echo "enp3s0[Link] check OK" || { echo "enp3s0 check FAIL"; exit 3; }
+
+
+ethtool enp4s0 > enp4s0.log
+log=$(cat enp4s0.log)
+echo "$log" |grep -q "$checkTxt" && echo "enp4s0[2500] check OK" || { echo "enp4s0 check FAIL"; exit 4; }
+echo "$log" |grep -q "$checkTst" && echo "enp4s0[Duplex] check OK" || { echo "enp4s0 check FAIL"; exit 4; }
+echo "$log" |grep -q "$checkTlt" && echo "enp4s0[Link] check OK" || { echo "enp4s0 check FAIL"; exit 4; }
+
+
+
+exit 0

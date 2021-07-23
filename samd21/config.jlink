@@ -1,0 +1,6 @@
+device ATSAMD21G18
+speed 1000
+loadfile Bootloader_D21.hex
+rx 300
+q
+qc

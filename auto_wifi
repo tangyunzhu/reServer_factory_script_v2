@@ -1,0 +1,11 @@
+#iw dev wlo1 scan | grep SSID > wifi.log
+#r=$(grep -o SSID wifi.log |wc -l)
+ifconfig wlo1 >> dut_test.log
+r=$?
+if [ "$r" -eq 0 ]; then
+	echo "wlo1 check OK"
+	exit 0 
+else
+	echo "wlo1 check FAIL" 
+fi
+exit 1

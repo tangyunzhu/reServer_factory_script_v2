@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd /home/seeed/factoryScript
+
+
+while [ 1 ]
+do
+	aplay bubbs.wav
+	sleep 1
+done

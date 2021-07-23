@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ls /dev/ttyUSB* > usb2.log
+r=$(grep -o /dev/ttyUSB usb2.log | wc -l)
+if [ "$r" -eq 2 ]; then
+	echo "USB2.0 check OK"
+	exit 0 
+else
+	echo "USB2.0 check FAIL"
+	exit 1 
+fi
+
+

@@ -1,0 +1,58 @@
+#!/bin/bash
+#-------------------- sda1 Speed --------------------#
+
+mount /dev/sdc1 /mnt
+if [ $? -ne 0 ]; then
+	echo $?
+	echo "Error: USB Mount fail"
+	exit 5
+fi
+
+{ time dd if=/dev/zero of=/mnt/file bs=1M count=100; } 2>usb.log
+rm -rf /mnt/file
+umount /dev/sdc1
+r=$(sed -n '5p' usb.log)
+echo $r
+m=`expr index "$r" m`
+S=${r:$m:4} 
+echo "sdac time(<3.5) is: " $S
+
+max_time=3.5
+
+if [ `echo "$S < $max_time"|bc` -eq 1 ] ; then
+
+	echo "sdc1 Speed PASS"
+else
+	
+	echo "Error: sdc1 Speed FAILED"
+	exit 6
+fi
+
+
+#-------------------- sdd1 Speed --------------------#
+mount /dev/sdd1 /mnt
+if [ $? -ne 0 ]; then
+        echo $?
+        echo "Error: USB Mount fail"
+        exit 7
+fi
+
+{ time dd if=/dev/zero of=/mnt/file bs=1M count=100; } 2>usb.log
+rm -rf /mnt/file
+umount /dev/sdd1
+r=$(sed -n '5p' usb.log)
+echo $r
+m=`expr index "$r" m`
+S=${r:$m:4}
+echo "sdd1 time(<5.5.0) is: " $S
+
+max_time=5.5
+
+if [ `echo "$S < $max_time"|bc` -eq 1 ] ; then
+
+        echo "sdd1 Speed PASS"
+else
+
+        echo "Error: sdd1 Speed FAILED"
+        exit 8
+fi

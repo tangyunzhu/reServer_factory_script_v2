@@ -1,0 +1,6 @@
+sda     
+sdb     
+├─sdb1  /boot/efi
+└─sdb2  /
+nvme0n1 
+nvme1n1 
