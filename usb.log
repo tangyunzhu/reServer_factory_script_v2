@@ -1,7 +1,10 @@
-100+0 records in
-100+0 records out
-104857600 bytes (105 MB, 100 MiB) copied, 2.38454 s, 44.0 MB/s
-
-real	0m2.385s
-user	0m0.004s
-sys	0m0.071s
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 006: ID 2a7a:9587  CASUE USB KB
+Bus 003 Device 005: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
+Bus 003 Device 004: ID 0781:5567 SanDisk Corp. Cruzer Blade
+Bus 003 Device 003: ID 2886:8027 Unknown Seeeduino_Cortex_M0+
+Bus 003 Device 007: ID 8087:0026 Intel Corp. 
+Bus 003 Device 002: ID 0781:5567 SanDisk Corp. Cruzer Blade
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub

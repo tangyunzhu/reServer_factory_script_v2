@@ -1,0 +1,18 @@
+Bus 004 Device 003: ID 0781:5591 SanDisk Corp. Ultra Flair
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 007: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
+Bus 003 Device 006: ID 2a7a:9587  CASUE USB KB
+Bus 003 Device 005: ID 8087:0a2b Intel Corp. 
+Bus 003 Device 011: ID 0781:5567 SanDisk Corp. Cruzer Blade
+Bus 003 Device 009: ID 2886:8027 Unknown Seeeduino_Cortex_M0+
+Bus 003 Device 012: ID 0781:5567 SanDisk Corp. Cruzer Blade
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+wlp2s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 5c:5f:67:e9:b8:53  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

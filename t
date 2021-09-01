@@ -6,8 +6,8 @@ line="\r\n----------reServer factory testing[20210901-v1.1]-----------\r\n"
 echo $line >> dut_test.log
 echo -e $line
 
-./auto_disk
-r1=$?
+#./auto_disk
+#r1=$?
 ./auto_sram
 r2=$?
 #./auto_eth
@@ -17,6 +17,10 @@ if [ $r3 -ne 0 ]; then
 	./auto_iperf $(cat /home/te/Desktop/iperf_server)
 	r3=$?
 fi
+
+./auto_disk
+r1=$?
+
 
 ./auto_usb_n
 r4=$?
@@ -30,6 +34,9 @@ r5=$?
 r6=$?
 ./tty_pairs ttyS0,ttyS1
 r7=$?
+if [ $r7 -eq 0 ]; then
+	echo "COM1&2 test OK" >> dut_test.log
+fi
 
 ((result=$r1+$r2+$r3+$r4+$r5+$r6+$r7))
 #echo $result

@@ -1160,3 +1160,4491 @@ writeWord(addr=0xe000ed0c,value=0x5fa0004)
 find port: /dev/ttyACM1
 Write  test program to test board
 find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.837 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.068 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.841 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.065 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.839 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.886 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.069 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.820 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.843 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.063 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.843 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.802 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.063 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.804 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.062 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.859 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.065 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.858 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.065 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.843 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.843 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.063 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.841 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.063 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.835 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.833 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.063 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.007 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.834 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.830 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.069 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.918 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.070 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.841 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.070 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.839 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.070 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.828 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.067 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.841 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.007 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.916 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.071 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.813 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.814 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.814 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.065 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.803 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.062 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.802 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.062 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.802 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.063 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.802 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.062 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.786 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.061 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.859 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.859 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.859 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.859 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.065 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.859 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.821 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.815 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.063 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.821 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.063 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.868 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.069 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.837 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.842 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.069 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.828 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.067 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.828 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.066 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.912 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.069 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.843 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.843 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.064 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.843 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.063 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+No SAM21 chip found
+No SAM21 chip found
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.895 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.069 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.919 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.070 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.896 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.069 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.921 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.071 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1
+/dev/ttyACM0
+Set binary mode
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+chipId=0x10010005
+Connected at 921600 baud
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Atmel SMART device 0x10010005 found
+write(addr=0x20004000,size=0x34)
+writeWord(addr=0x20004030,value=0x10)
+writeWord(addr=0x20004020,value=0x20008000)
+Device       : ATSAMD21G18A
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+Chip ID      : 10010005
+version()=v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Version      : v2.0 [Arduino:XYZ] Oct 12 2018 18:20:29
+Address      : 8192
+Pages        : 3968
+Page Size    : 64 bytes
+Total Size   : 248KB
+Planes       : 1
+Lock Regions : 16
+Locked       : readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+readWord(addr=0x41004020)=0xffff
+none
+readWord(addr=0x41004018)=0
+Security     : false
+Boot Flash   : true
+readWord(addr=0x40000834)=0x7000a
+BOD          : true
+readWord(addr=0x40000834)=0x7000a
+BOR          : true
+Arduino      : FAST_CHIP_ERASE
+Arduino      : FAST_MULTI_PAGE_WRITE
+Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
+Erase flash
+chipErase(addr=0x2000)
+done in 0.892 seconds
+
+Write 10616 bytes to flash (166 pages)
+write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x2000, size=0x1000)
+[===========                   ] 38% (64/166 pages)write(addr=0x20005000,size=0x1000)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
+[=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
+writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
+[==============================] 100% (166/166 pages)
+done in 0.069 seconds
+
+Verify 10616 bytes of flash with checksum.
+checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7
+checksumBuffer(start_addr=0x3000, size=0x1000) = bf9e
+checksumBuffer(start_addr=0x4000, size=0x978) = fd3
+Verify successful
+done in 0.008 seconds
+CPU reset.
+readWord(addr=0)=0x20007ffc
+readWord(addr=0xe000ed00)=0x410cc601
+readWord(addr=0x41002018)=0x10010305
+writeWord(addr=0xe000ed0c,value=0x5fa0004)
+find port: /dev/ttyACM1
+Write  test program to test board
+find port: /dev/ttyACM1

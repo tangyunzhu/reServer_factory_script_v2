@@ -3,10 +3,12 @@ cat /proc/meminfo | grep MemTotal > sram.log
 sudo dmidecode -t memory >> sram.log
 cat sram.log >> dut_test.log
 #r=$(grep -o "Size: No Module Installed" sram.log |wc -l)
-r=$(grep -o "Number Of Devices: 2" sram.log |wc -l)
+#r=$(grep -o "Number Of Devices: 2" sram.log |wc -l)
 #echo "DDR plug " $r "pcs"
 
-if [ "$r" -eq 1  ]; then
+r=$(grep -o "Unknown" sram.log |wc -l)
+echo $r
+if [ "$r" -le 6  ]; then
         echo "SRAM check PASS"
 else
         echo "SRAM check FAIL"

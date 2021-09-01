@@ -1,0 +1,167 @@
+
+\r\n----------reServer factory testing[20210901-v1.1]-----------\r\n
+MemTotal:        7813516 kB
+# dmidecode 3.2
+Getting SMBIOS data from sysfs.
+SMBIOS 3.3.0 present.
+# SMBIOS implementations newer than version 3.2.0 are not
+# fully supported by this version of dmidecode.
+
+Handle 0x0039, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 32 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 2
+
+Handle 0x003D, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0039
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: Controller0-ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: DDR4
+	Type Detail: Synchronous
+	Speed: 2667 MT/s
+	Manufacturer: Kingston
+	Serial Number: 1CB45328
+	Asset Tag: 9876543210
+	Part Number: 99P5711-002.A00G    
+	Rank: 1
+	Configured Memory Speed: 2400 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 2, Hex 0x98
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 4 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x003E, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0039
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4096 MB
+	Form Factor: SODIMM
+	Set: None
+	Locator: Controller1-ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: DDR4
+	Type Detail: Synchronous
+	Speed: 2400 MT/s
+	Manufacturer: Samsung
+	Serial Number: 21643035
+	Asset Tag: 9876543210
+	Part Number: M471A5244CB0-CRC    
+	Rank: 1
+	Configured Memory Speed: 2400 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Not Specified
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 4 GB
+	Cache Size: None
+	Logical Size: None
+
+enp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+enp3s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+Connecting to host 192.168.237.86, port 5201
+[  5] local 192.168.237.74 port 55994 connected to 192.168.237.86 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   284 MBytes  2.38 Gbits/sec    0    210 KBytes       
+[  5]   1.00-2.00   sec   282 MBytes  2.37 Gbits/sec    0    210 KBytes       
+[  5]   2.00-3.00   sec   283 MBytes  2.37 Gbits/sec    0    210 KBytes       
+[  5]   3.00-4.00   sec   282 MBytes  2.37 Gbits/sec    0    210 KBytes       
+[  5]   4.00-5.00   sec   283 MBytes  2.37 Gbits/sec    0    210 KBytes       
+[  5]   5.00-6.00   sec   283 MBytes  2.37 Gbits/sec    0    210 KBytes       
+[  5]   6.00-7.00   sec   283 MBytes  2.37 Gbits/sec    0    210 KBytes       
+[  5]   7.00-8.00   sec   283 MBytes  2.37 Gbits/sec    0    210 KBytes       
+[  5]   8.00-9.00   sec   283 MBytes  2.37 Gbits/sec    0    210 KBytes       
+[  5]   9.00-10.00  sec   283 MBytes  2.37 Gbits/sec    0    210 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  2.76 GBytes  2.37 Gbits/sec    0             sender
+[  5]   0.00-10.00  sec  2.76 GBytes  2.37 Gbits/sec                  receiver
+
+iperf Done.
+Connecting to host 192.168.237.86, port 5201
+[  5] local 192.168.237.73 port 53824 connected to 192.168.237.86 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   283 MBytes  2.38 Gbits/sec   41    212 KBytes       
+[  5]   1.00-2.00   sec   282 MBytes  2.37 Gbits/sec    0    212 KBytes       
+[  5]   2.00-3.00   sec   283 MBytes  2.37 Gbits/sec    0    212 KBytes       
+[  5]   3.00-4.00   sec   283 MBytes  2.37 Gbits/sec    0    212 KBytes       
+[  5]   4.00-5.00   sec   283 MBytes  2.37 Gbits/sec    0    212 KBytes       
+[  5]   5.00-6.00   sec   283 MBytes  2.37 Gbits/sec    0    212 KBytes       
+[  5]   6.00-7.00   sec   283 MBytes  2.37 Gbits/sec    0    212 KBytes       
+[  5]   7.00-8.00   sec   282 MBytes  2.37 Gbits/sec    0    212 KBytes       
+[  5]   8.00-9.00   sec   283 MBytes  2.37 Gbits/sec    0    212 KBytes       
+[  5]   9.00-10.00  sec   282 MBytes  2.37 Gbits/sec    0    212 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  2.76 GBytes  2.37 Gbits/sec   41             sender
+[  5]   0.00-10.00  sec  2.76 GBytes  2.37 Gbits/sec                  receiver
+
+iperf Done.
+sda     
+sdb     
+├─sdb1  /boot/efi
+└─sdb2  /
+sdc     
+└─sdc1  /media/te/C410-9DBD
+sdd     
+└─sdd1  /media/te/disk
+sde     
+└─sde1  /media/te/UBUNTU 18_0
+nvme0n1 
+Bus 004 Device 002: ID 0781:5591 SanDisk Corp. Ultra Flair
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 008: ID 2a7a:9587  CASUE USB KB
+Bus 003 Device 007: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
+Bus 003 Device 010: ID 0781:5567 SanDisk Corp. Cruzer Blade
+Bus 003 Device 009: ID 8087:0026 Intel Corp. 
+Bus 003 Device 011: ID 0781:5567 SanDisk Corp. Cruzer Blade
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 002: ID 0781:5591 SanDisk Corp. Ultra Flair
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 008: ID 2a7a:9587  CASUE USB KB
+Bus 003 Device 007: ID 046d:c05a Logitech, Inc. M90/M100 Optical Mouse
+Bus 003 Device 010: ID 0781:5567 SanDisk Corp. Cruzer Blade
+Bus 003 Device 009: ID 8087:0026 Intel Corp. 
+Bus 003 Device 011: ID 0781:5567 SanDisk Corp. Cruzer Blade
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+wlo1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether d4:d2:52:31:fa:3d  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+COM1&2 test OK

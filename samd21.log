@@ -55,7 +55,7 @@ Arduino      : FAST_MULTI_PAGE_WRITE
 Arduino      : CAN_CHECKSUM_MEMORY_BUFFER
 Erase flash
 chipErase(addr=0x2000)
-done in 0.826 seconds
+done in 0.892 seconds
 
 Write 10616 bytes to flash (166 pages)
 write(addr=0x20005000,size=0x1000)
@@ -65,7 +65,7 @@ writeBuffer(scr_addr=0x20005000, dst_addr=0x3000, size=0x1000)
 [=======================       ] 77% (128/166 pages)write(addr=0x20005000,size=0x980)
 writeBuffer(scr_addr=0x20005000, dst_addr=0x4000, size=0x980)
 [==============================] 100% (166/166 pages)
-done in 0.064 seconds
+done in 0.069 seconds
 
 Verify 10616 bytes of flash with checksum.
 checksumBuffer(start_addr=0x2000, size=0x1000) = 7b7

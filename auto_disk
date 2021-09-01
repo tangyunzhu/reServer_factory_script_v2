@@ -2,17 +2,21 @@ checkTxt1="sda"
 checkTxt2="sdb"
 checkTxt4="sdc"
 checkTxt5="sdd"
+checkTxt6="sde"
 checkTxt3="nvme0n1"
 checkTxt4="nvme1n1"
 
 lsblk --output NAME,MOUNTPOINT | grep -E 'sd|nvm' > disk.log
 cat disk.log >> dut_test.log
-log=$(cat disk.log)
-echo "$log" |grep -q "$checkTxt1" && echo "/dev/sda check OK" || { echo "/dev/sda check FAIL"; exit 1; }
-echo "$log" |grep -q "$checkTxt2" && echo "/dev/sdb check OK" || { echo "/dev/sdb check FAIL"; exit 2; }
-echo "$log" |grep -q "$checkTxt4" && echo "/dev/sdc check OK" || { echo "/dev/sdc check FAIL"; exit 4; }
-echo "$log" |grep -q "$checkTxt5" && echo "/dev/sdd check OK" || { echo "/dev/sdd check FAIL"; exit 5; }
-echo "$log" |grep -q "$checkTxt3" && echo "/dev/nvme0n1 check OK" || { echo "/dev/nvme0n1 check FAIL"; exit 3; }
-echo "$log" |grep -q "$checkTxt4" && echo "/dev/nvme1n1 check OK" || { echo "/dev/nvme1n1 check FAIL"; exit 6; }
+s=$(cat disk.log)
+echo "$s" |grep -q "$checkTxt1" && echo "/dev/sda check OK" || { echo "/dev/sda check FAIL"; exit 1; }
+echo "$s" |grep -q "$checkTxt2" && echo "/dev/sdb check OK" || { echo "/dev/sdb check FAIL"; exit 2; }
+echo "$s" |grep -q "$checkTxt4" && echo "/dev/sdc check OK" || { echo "/dev/sdc check FAIL"; exit 4; }
+echo "$s" |grep -q "$checkTxt5" && echo "/dev/sdd check OK" || { echo "/dev/sdd check FAIL"; exit 5; }
+echo "$s" |grep -q "$checkTxt6" && echo "/dev/sde check OK" || { echo "/dev/sde check FAIL"; exit 6; }
+
+
+echo "$s" |grep -q "$checkTxt3" && echo "/dev/nvme0n1 check OK" || { echo "/dev/nvme0n1 check FAIL"; exit 3; }
+echo "$s" |grep -q "$checkTxt4" && echo "/dev/nvme1n1 check OK" || { echo "/dev/nvme1n1 check FAIL"; exit 6; }
 
 exit 0

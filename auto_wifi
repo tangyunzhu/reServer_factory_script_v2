@@ -10,6 +10,11 @@ else
 fi
 
 ifconfig -a | grep wlp* > wifi.log
+r=$?
+if [ $r -ne 0 ]; then
+	echo "wifi check FAIL"
+	exit 3
+fi
 r1=$(sed -n "1p" wifi.log)
 wlan1=${r1:0:6}
 ifconfig $wlan1 >> dut_test.log
