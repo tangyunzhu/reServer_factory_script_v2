@@ -1,0 +1,14 @@
+#!/bin/bash
+
+lsusb > usb.log
+cat usb.log >> dut_test.log
+
+r=$(grep -o Bus  usb.log | wc -l)
+if [ "$r" -eq 11 ]; then
+	echo "USB device check OK"
+	exit 0 
+else
+	echo "USB device check FAIL"
+	exit 1 
+fi
+

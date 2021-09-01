@@ -2,7 +2,7 @@
 
 cd /home/te/factoryScript
 echo "" > dut_test.log
-line="\r\n----------reServer factory testing[20210723-v1.0]-----------\r\n"
+line="\r\n----------reServer factory testing[20210901-v1.1]-----------\r\n"
 echo $line >> dut_test.log
 echo -e $line
 
@@ -18,10 +18,10 @@ if [ $r3 -ne 0 ]; then
 	r3=$?
 fi
 
-./auto_usb_speed
+./auto_usb_n
 r4=$?
 if [ $r4 -ne 0 ]; then
-	./auto_usb_speed
+	./auto_usb_n
 	r4=$?
 fi
 ./auto_wifi
