@@ -6,6 +6,20 @@ if [ "$r" -eq 0 ]; then
 	echo "wlo1 check OK"
 	exit 0 
 else
-	echo "wlo1 check FAIL" 
+	echo "wlo1 check FAIL,check wlp2s0 again" 
 fi
+
+ifconfig -a | grep wlp* > wifi.log
+r1=$(sed -n "1p" wifi.log)
+wlan1=${r1:0:6}
+ifconfig $wlan1 >> dut_test.log
+r=$?
+if [ "$r" -eq 0 ]; then
+        echo "$wlan1 check OK"
+        exit 0
+else
+        echo "$wlan1 check FAIL"
+fi
+
+
 exit 1
