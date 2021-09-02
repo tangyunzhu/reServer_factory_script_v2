@@ -5,10 +5,10 @@ cat usb.log >> dut_test.log
 
 r=$(grep -o Bus  usb.log | wc -l)
 if [ "$r" -eq 11 ]; then
-	echo "USB device check OK"
+	echo "USB device check OK[$r]"
 	exit 0 
 else
-	echo "USB device check FAIL"
+	echo "USB device check FAIL[$r!=11]"
 	exit 1 
 fi
 
