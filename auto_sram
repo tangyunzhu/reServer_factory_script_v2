@@ -7,11 +7,11 @@ cat sram.log >> dut_test.log
 #echo "DDR plug " $r "pcs"
 
 r=$(grep -o "Unknown" sram.log |wc -l)
-echo $r
+#echo $r
 if [ "$r" -le 6  ]; then
-        echo "SRAM check PASS"
+        echo "SRAM check PASS[$r]"
 else
-        echo "SRAM check FAIL"
+        echo "SRAM check FAIL[$r]"
 	exit 1
 fi
 exit 0
