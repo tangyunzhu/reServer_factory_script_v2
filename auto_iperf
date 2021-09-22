@@ -16,9 +16,15 @@ echo $eth1 $eth2
 cat /sys/class/net/$eth1/address > eth1_address
 cat /sys/class/net/$eth2/address > eth2_address
 
-
-ifconfig $eth1 up
 ifconfig $eth2 down
+ifconfig $eth1 up
+#ifconfig $eth2 down
+dhclient $eth1
+r=$?
+if [ $r -ne 0 ]; then
+	echo "dhcp error"
+	exit 8
+fi
 dhclient $eth1
 sleep 1
 
@@ -50,6 +56,12 @@ fi
 
 ifconfig $eth1 down
 ifconfig $eth2 up
+#dhclient $eth2
+r=$?
+if [ $r -ne 0 ]; then
+        echo "dhcp error"
+        exit 9
+fi
 dhclient $eth2
 sleep 1
 
