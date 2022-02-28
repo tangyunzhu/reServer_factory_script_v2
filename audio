@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/seeed/factoryScript
+cd /home/te/factoryScript
 
 
 while [ 1 ]
