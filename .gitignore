@@ -9,3 +9,4 @@ sadm21/dut_test.log
 sram.log
 usb.log
 alicloud_upload.py
+log/*.log
