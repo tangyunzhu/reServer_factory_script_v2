@@ -1,0 +1,12 @@
+disk.log
+dut_test.log
+eth1_address
+eth2_address
+eth_interface.log
+iperf.log
+sadm21.log
+sadm21/dut_test.log
+sram.log
+usb.log
+alicloud_upload.py
+log
