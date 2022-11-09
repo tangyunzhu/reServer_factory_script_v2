@@ -4,7 +4,7 @@ checkTxt4="sdc"
 checkTxt5="sdd"
 checkTxt6="sde"
 checkTxt3="nvme0n1"
-checkTxt4="nvme1n1"
+checkTxt7="nvme1n1"
 
 lsblk --output NAME,MOUNTPOINT | grep -E 'sd|nvm' > disk.log
 cat disk.log >> dut_test.log
@@ -17,6 +17,6 @@ echo "$s" |grep -q "$checkTxt6" && echo "/dev/sde check OK" || { echo "/dev/sde 
 
 
 echo "$s" |grep -q "$checkTxt3" && echo "/dev/nvme0n1 check OK" || { echo "/dev/nvme0n1 check FAIL"; exit 3; }
-echo "$s" |grep -q "$checkTxt4" && echo "/dev/nvme1n1 check OK" || { echo "/dev/nvme1n1 check FAIL"; exit 6; }
+echo "$s" |grep -q "$checkTxt7" && echo "/dev/nvme1n1 check OK" || { echo "/dev/nvme1n1 check FAIL"; exit 6; }
 
 exit 0
